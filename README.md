@@ -20,7 +20,7 @@ The study was not successful. The investigators concluded additional information
 
 ## Abalones Data_Analysis_1.Rmd 
 It is an exploratory data analysis to determine plausible reasons why the original study was unsuccessful in predicting abalone age based on physical characteristics.
-## Assignment Data_Analysis_2.Rmd 
+## Abalones Data_Analysis_2.Rmd 
 It involves development of a regression model; and, also address development of binary decision rules and a Receiver Operating Characteristic (ROC) curve.
 
 ## Data set: 
