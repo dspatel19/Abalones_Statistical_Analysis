@@ -18,10 +18,13 @@ The assignment data are derived from an observational study of abalones. The int
 The study was not successful. The investigators concluded additional information would be required such as weather patterns and location which affect food availability.
 
 
-## Abalones Data Analysis_1.Rmd is an exploratory data analysis to determine plausible reasons why the original study was unsuccessful in predicting abalone age based on physical characteristics.
-## Assignment Data Analysis_2.Rmd will involve development of a regression model; and, also address development of binary decision rules and a Receiver Operating Characteristic (ROC) curve.
+## Abalones Data_Analysis_1.Rmd 
+It is an exploratory data analysis to determine plausible reasons why the original study was unsuccessful in predicting abalone age based on physical characteristics.
+## Assignment Data_Analysis_2.Rmd 
+It involves development of a regression model; and, also address development of binary decision rules and a Receiver Operating Characteristic (ROC) curve.
 
-## Data set: abalones.csv, mydata.csv (They are both are same csv files) 
+## Data set: 
+abalones.csv, mydata.csv (They are both are same csv files) 
 
 ## Data Description: 
 This data file is derived from study of abalones in Tasmania. There are 1036 observations and eight variables. The CLASS variable has been added for this assignment.
@@ -34,5 +37,14 @@ This data file is derived from study of abalones in Tasmania. There are 1036 obs
 6. SHUCK = Shucked weight of meat in grams
 7. RINGS = Age (+1.5 gives the age in years)
 8. CLASS = Age classification based on RINGS (A1= youngest,., A6=oldest)
+
+## Additional Features:
+Additional features that are relevant to answer the questions can be created. In this case, there are 2 additional features that seem relevant. 
+(i) Calculate a new variable VOLUME by multiplying LENGTH, DIAM and HEIGHT together. 
+(ii) VOLUME is related to the overall size of an abalone. 
+(iii) Calculate a new variable called RATIO by dividing SHUCK by VOLUME. 
+(iv) RATIO is related to the proportion of meat in an abalone.
+
+
 
 
